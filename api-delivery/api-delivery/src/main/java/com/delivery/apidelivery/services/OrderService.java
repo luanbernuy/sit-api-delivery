@@ -1,10 +1,12 @@
 package com.delivery.apidelivery.services;
 
 import com.delivery.apidelivery.entities.Food;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class OrderService {
 
     private List<Food> listaPlatos;
